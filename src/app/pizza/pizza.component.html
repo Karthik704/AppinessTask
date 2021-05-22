@@ -1,0 +1,37 @@
+<div class="container">
+  <table
+    class="table table-hover caption-top table-striped table-dark border-warning"
+  >
+    <caption class="text-warning text-center">
+      <h2>Orders Placed</h2>
+    </caption>
+    <thead class="text-warning" style="background-color: lightseagreen;">
+      <tr>
+        <th>Customer Name</th>
+        <th>Quantity</th>
+        <th>Total Cost</th>
+        <th>Status of Order</th>
+        <th>Update Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let order of pizzaOrders;index as i">
+        <td (click)="setSelectedPizza(order)" style="cursor: pointer;">
+          {{order.customerName}}
+        </td>
+        <td>{{order.noOfItems}}</td>
+        <td>{{order.totalCost | currency}}</td>
+        <td>{{order.status}}</td>
+        <td>
+          <button
+            class="btn btn-warning text-dark"
+            [disabled]="order.status == 'Finished'"
+            (click)="updatePizzaStatus(order.status, i)"
+          >
+            Update Status
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

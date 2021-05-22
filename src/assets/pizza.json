@@ -1,0 +1,167 @@
+[
+  {
+    "customerName": "John Doe",
+    "orderId": "1",
+    "noOfItems": 2,
+    "totalCost": 300,
+    "address": {
+      "line": "White Field Zone",
+      "city": "Yaswanthpur 34",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "status": "Received",
+    "items": [
+      { "name": "Veg Pizza", "cost": 100, "quantity": 1 },
+      { "name": "Paneer Pizza", "cost": 200, "quantity": 1 }
+    ]
+  },
+  {
+    "customerName": "Michael clark",
+    "orderId": "2",
+    "noOfItems": 1,
+    "totalCost": 200,
+    "address": {
+      "line": "White Field Zone",
+      "city": " Banglore 1234",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "status": "Preparing",
+    "items": [
+      { "name": "Veg Pizza", "cost": 100, "quantity": 1 },
+      { "name": "Paneer Pizza", "cost": 200, "quantity": 1 }
+    ]
+  },
+  {
+    "customerName": "James Cam",
+    "orderId": "3",
+    "noOfItems": 3,
+    "totalCost": 450,
+    "address": {
+      "line": "White Field Zone",
+      "city": " Banglore 1234",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "status": "Received",
+    "items": [
+      { "name": "Veg Pizza", "cost": 100, "quantity": 1 },
+      { "name": "Paneer Pizza", "cost": 200, "quantity": 1 },
+      { "name": "mushroom Pizza", "cost": 150, "quantity": 1 }
+    ]
+  },
+  {
+    "customerName": "Jonas Nick",
+    "orderId": "4",
+    "noOfItems": 2,
+    "totalCost": 300,
+    "address": {
+      "line": "White Field Zone",
+      "city": " Banglore 1234",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "status": "Finished",
+    "items": [
+      { "name": "Veg Pizza", "cost": 100, "quantity": 1 },
+      { "name": "Paneer Pizza", "cost": 200, "quantity": 1 }
+    ]
+  },
+  {
+    "customerName": "Nick game",
+    "orderId": "5",
+    "noOfItems": 4,
+    "totalCost": 600,
+    "address": {
+      "line": "White Field Zone",
+      "city": " Banglore 1234",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "status": "Received",
+    "items": [
+      { "name": "Veg Pizza", "cost": 100, "quantity": 2 },
+      { "name": "Paneer Pizza", "cost": 200, "quantity": 2 }
+    ]
+  },
+  {
+    "customerName": "John Doe",
+    "orderId": "1",
+    "noOfItems": 2,
+    "totalCost": 300,
+    "address": {
+      "line": "White Field Zone",
+      "city": " Banglore 1234",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "status": "Received",
+    "items": [
+      { "name": "Veg Pizza", "cost": 100, "quantity": 1 },
+      { "name": "Paneer Pizza", "cost": 200, "quantity": 1 }
+    ]
+  },
+  {
+    "customerName": "Michael clark",
+    "orderId": "2",
+    "noOfItems": 1,
+    "totalCost": 200,
+    "address": {
+      "line": "White Field Zone",
+      "city": " Banglore 1234",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "status": "Preparing",
+    "items": [{ "name": "Paneer Pizza", "cost": 200, "quantity": 1 }]
+  },
+  {
+    "customerName": "James Cam",
+    "orderId": "3",
+    "noOfItems": 3,
+    "totalCost": 400,
+    "address": {
+      "line": "White Field Zone",
+      "city": " Banglore 1234",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "status": "Received",
+    "items": [
+      { "name": "Veg Pizza", "cost": 100, "quantity": 2 },
+      { "name": "Paneer Pizza", "cost": 200, "quantity": 1 }
+    ]
+  },
+  {
+    "customerName": "Jonas Nick",
+    "orderId": "4",
+    "noOfItems": 2,
+    "totalCost": 300,
+    "address": {
+      "line": "White Field Zone",
+      "city": " Banglore 1234",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "status": "Finished",
+    "items": [
+      { "name": "Veg Pizza", "cost": 100, "quantity": 1 },
+      { "name": "Paneer Pizza", "cost": 200, "quantity": 1 }
+    ]
+  },
+  {
+    "customerName": "Nick game",
+    "orderId": "5",
+    "noOfItems": 1,
+    "totalCost": 150,
+    "address": {
+      "line": "White Field Zone",
+      "city": " Banglore 1234",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "status": "Received",
+    "items": [{ "name": "Mushroom Pizza", "cost": 150, "quantity": 1 }]
+  }
+]

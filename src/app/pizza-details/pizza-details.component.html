@@ -1,0 +1,38 @@
+<table class="table table-dark table-hover table-striped border-warning">
+  <thead>
+    <tr>
+      <th colspan="2" class="text-warning">Customer Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Customer Name</td>
+      <td>{{selectedPizza.customerName}}</td>
+    </tr>
+    <tr>
+      <td>Delivery Address</td>
+      <td>
+        <address>
+          {{selectedPizza.address.line}} <br />
+          {{selectedPizza.address.city}} <br />
+          {{selectedPizza.address.state}}, {{selectedPizza.address.country}}
+        </address>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br />
+<table class="table table-striped table-dark table-hover border-warning">
+  <thead>
+    <tr>
+      <th colspan="3" class="text-warning">Pizza Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pizza of selectedPizza.items">
+      <td>{{pizza.name}}</td>
+      <td>{{pizza.quantity}}</td>
+      <td>{{pizza.cost | currency}}</td>
+    </tr>
+  </tbody>
+</table>
